@@ -3,8 +3,16 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 from flask_restful import Api, Resource
 
+from api.titanic import titanic_api
+
 app = Flask(__name__)
-CORS(app, supports_credentials=True, origins='*')
+CORS(app, supports_credentials=True, origins=[
+    "http://localhost:4700",
+    "http://127.0.0.1:4700",
+    "https://darshanravi.github.io",
+])
+
+app.register_blueprint(titanic_api)
 
 api = Api(app)
 
