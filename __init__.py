@@ -35,6 +35,8 @@ cors = CORS(
        'http://127.0.0.1:4500',
        'http://localhost:4600',
        'http://127.0.0.1:4600',
+       'http://localhost:4700',
+       'http://127.0.0.1:4700',
        'http://localhost:4000',
        'http://127.0.0.1:4000',
        'https://open-coding-society.github.io',
