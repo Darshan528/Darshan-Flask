@@ -16,3 +16,7 @@
 127.0.0.1 - - [23/Mar/2026 23:19:47] "POST /api/titanic/predict HTTP/1.1" 200 -
 127.0.0.1 - - [23/Mar/2026 23:19:47] "OPTIONS /api/titanic/feature_weights HTTP/1.1" 200 -
 127.0.0.1 - - [23/Mar/2026 23:19:47] "GET /api/titanic/feature_weights HTTP/1.1" 200 -
+127.0.0.1 - - [23/Mar/2026 23:23:21] "OPTIONS /api/titanic/predict HTTP/1.1" 200 -
+127.0.0.1 - - [23/Mar/2026 23:23:21] "POST /api/titanic/predict HTTP/1.1" 200 -
+127.0.0.1 - - [23/Mar/2026 23:23:21] "OPTIONS /api/titanic/feature_weights HTTP/1.1" 200 -
+127.0.0.1 - - [23/Mar/2026 23:23:21] "GET /api/titanic/feature_weights HTTP/1.1" 200 -
